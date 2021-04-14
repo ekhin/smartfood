@@ -4,6 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import Amplify from 'aws-amplify';
+import config from './aws-exports';
+import API from '@aws-amplify/api';
+import Auth from '@aws-amplify/auth';
+
+Amplify.configure(config);
+Amplify.register(Auth);
+Amplify.register(API);
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

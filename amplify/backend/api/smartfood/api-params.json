@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/smartfood",
+            "lambdaFunction": "smartfood",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/smartfood"
+        }
+    ],
+    "resourceName": "smartfood",
+    "apiName": "smartfood",
+    "functionArns": [
+        {
+            "lambdaFunction": "smartfood"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-smartfood-dev-115258-authRole",
+        "unAuthRoleName": "amplify-smartfood-dev-115258-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "smartfood",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

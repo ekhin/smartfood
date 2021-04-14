@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-smartfood-dev-115258-authRole",
+      "UnauthRoleArn": "arn:aws:iam::671636637184:role/amplify-smartfood-dev-115258-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::671636637184:role/amplify-smartfood-dev-115258-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-smartfood-dev-115258-deployment",
+      "UnauthRoleName": "amplify-smartfood-dev-115258-unauthRole",
+      "StackName": "amplify-smartfood-dev-115258",
+      "StackId": "arn:aws:cloudformation:us-west-2:671636637184:stack/amplify-smartfood-dev-115258/a3240ce0-9d52-11eb-8982-02b63a1fce79",
+      "AmplifyAppId": "d1mhrg2tk629ce"
+    },
+    "categories": {
+      "auth": {
+        "smartfood2d0dbeb6": {}
+      },
+      "function": {
+        "smartfood": {
+          "deploymentBucketName": "amplify-smartfood-dev-115258-deployment",
+          "s3Key": "amplify-builds/smartfood-34365861744530494f4a-build.zip"
+        }
+      }
+    }
+  }
+}

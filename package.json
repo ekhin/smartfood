@@ -3,12 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@aws-amplify/api": "^3.2.29",
+    "@aws-sdk/client-s3": "^3.12.0",
+    "@material-ui/core": "^4.11.3",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "aws-amplify": "^3.3.26",
+    "aws-sdk": "^2.887.0",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-cookie": "^4.0.3",
     "react-dom": "^17.0.2",
+    "react-grid-system": "^7.1.2",
     "react-scripts": "4.0.3",
+    "react-spinners": "^0.10.6",
+    "rsuite": "^4.9.3",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
